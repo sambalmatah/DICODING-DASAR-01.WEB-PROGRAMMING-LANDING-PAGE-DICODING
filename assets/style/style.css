@@ -30,3 +30,10 @@ header.navbar-container {
 header.navbar-container .logo img {
   width: 150px;
 }
+
+header.navbar-container .nav-list ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
