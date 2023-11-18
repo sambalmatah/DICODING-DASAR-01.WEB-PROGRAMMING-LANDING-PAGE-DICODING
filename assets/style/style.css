@@ -151,3 +151,10 @@ main aside .social-media ul {
 main aside .social-media li {
   list-style-type: none;
 }
+
+main aside .social-media li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.15s ease-in-out;
+}
