@@ -73,3 +73,7 @@ main .content {
   display: flex;
   align-items: center;
 }
+
+main .content .content-description {
+  flex: 1 1;
+}
