@@ -87,3 +87,19 @@ main .content .content-description p {
   line-height: 1.7rem;
   font-size: 1.2rem;
 }
+
+main .content .content-description button {
+  padding: 0.8rem 20.5rem;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: #2d3e50;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
