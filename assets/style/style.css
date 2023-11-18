@@ -78,7 +78,7 @@ main .content .content-description {
   flex: 1 1;
 }
 
-main .content .content-description title {
+main .content .content-description .title {
   font-size: 3.5rem;
   margin-block: 1rem;
 }
@@ -102,4 +102,10 @@ main .content .content-description button {
   background-color: #2d3e50;
   cursor: pointer;
   transition: all 0.15s ease-in;
+}
+
+main .content .content-description button:hover {
+  border: 3px solid #2d3e50;
+  color: #2D3E50;
+  background-color: transparent;
 }
