@@ -178,4 +178,8 @@ main aside .social-media li a:hover {
     flex-direction: column;
     gap: 2rem;
   }
+
+  main {
+    padding: 1rem 3rem;
+  }
 }
