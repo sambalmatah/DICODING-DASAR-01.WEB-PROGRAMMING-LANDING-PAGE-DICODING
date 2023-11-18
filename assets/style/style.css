@@ -109,3 +109,14 @@ main .content .content-description button:hover {
   color: #2D3E50;
   background-color: transparent;
 }
+
+main .content .content-image {
+  flex: 1;
+  display: flex;
+}
+
+main .content .content-image img {
+  margin: auto;
+  min-width: 250px;
+  width: 300px;
+}
