@@ -173,4 +173,9 @@ main aside .social-media li a:hover {
     flex-wrap: wrap;
     column-gap: 0.5rem;
   }
+
+  main .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
