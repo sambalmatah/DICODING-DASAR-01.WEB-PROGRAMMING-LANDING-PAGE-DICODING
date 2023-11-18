@@ -126,3 +126,28 @@ main aside {
   inset-block: 0;
   inset-inline-end: 0;
 }
+
+main aside .social-media {
+  height: 100%;
+  display: flex;
+  /* margin: auto; */
+  background-color: salmon;
+}
+
+main aside .social-media ul {
+  padding: 1.5rem 1rem;
+  margin: auto;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #2d3e50;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+main aside .social-media li {
+  list-style-type: none;
+}
