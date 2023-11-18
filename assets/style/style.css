@@ -130,8 +130,6 @@ main aside {
 main aside .social-media {
   height: 100%;
   display: flex;
-  /* margin: auto; */
-  background-color: salmon;
 }
 
 main aside .social-media ul {
@@ -167,5 +165,7 @@ main aside .social-media li a:hover {
 /* Medium devices (landscape tablets, 768px and down) */
 
 @media screen and (max-width: 768px) {
-  
+  header.navbar-container {
+    flex-direction: column;
+  }
 }
