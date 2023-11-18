@@ -82,3 +82,8 @@ main .content .content-description title {
   font-size: 3.5rem;
   margin-block: 1rem;
 }
+
+main .content .content-description p {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
